@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/examples\/users\/shorten[1.1:47]","start":1667168051042,"end":1667168059619,"title":"src\/test\/java\/examples\/users\/shorten[1.1:47] 19:14:11.042-19:14:19.619 shorten 'exitoso'"},{"id":2,"group":1,"content":"src\/test\/java\/examples\/users\/shorten[1.2:48]","start":1667168059627,"end":1667168060323,"title":"src\/test\/java\/examples\/users\/shorten[1.2:48] 19:14:19.627-19:14:20.323 shorten 'invalid url'"},{"id":3,"group":1,"content":"src\/test\/java\/examples\/users\/shorten[2.1:60]","start":1667168060330,"end":1667168060800,"title":"src\/test\/java\/examples\/users\/shorten[2.1:60] 19:14:20.330-19:14:20.800 shorten 'invalid Token'"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

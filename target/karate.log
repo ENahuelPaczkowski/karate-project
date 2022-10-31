@@ -1,0 +1,2650 @@
+09:39:12.172 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:39:12.209 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^shorten exitoso$
+09:39:13.836 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:39:14.373 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+09:39:15.067 [main] DEBUG com.intuit.karate - response time in milliseconds: 692
+1 < 401
+1 < Date: Thu, 27 Oct 2022 12:39:04 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"Invalid API key. Go to https:\/\/docs.rapidapi.com\/docs\/keys for more info."}
+
+09:39:15.070 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:11
+Then status 200
+status code was: 401, expected: 200, response time in milliseconds: 692, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+{"message":"Invalid API key. Go to https:\/\/docs.rapidapi.com\/docs\/keys for more info."}
+src/test/java/examples/users/shorten.feature:11
+09:39:15.834 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+09:40:22.467 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:40:22.473 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1666874422472
+09:40:22.504 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^shorten exitoso$
+09:40:23.509 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:40:23.964 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+09:40:24.599 [main] DEBUG com.intuit.karate - response time in milliseconds: 633
+1 < 401
+1 < Date: Thu, 27 Oct 2022 12:40:13 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"Invalid API key. Go to https:\/\/docs.rapidapi.com\/docs\/keys for more info."}
+
+09:40:24.603 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:11
+Then status 200
+status code was: 401, expected: 200, response time in milliseconds: 633, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+{"message":"Invalid API key. Go to https:\/\/docs.rapidapi.com\/docs\/keys for more info."}
+src/test/java/examples/users/shorten.feature:11
+09:40:25.330 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+09:42:19.293 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:42:19.297 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1666874539296
+09:42:19.323 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7 - ^shorten exitoso$
+09:42:20.350 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:42:20.851 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+09:42:21.741 [main] DEBUG com.intuit.karate - response time in milliseconds: 884
+1 < 200
+1 < Date: Thu, 27 Oct 2022 12:42:10 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+09:42:22.472 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+09:45:43.994 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:45:44.000 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1666874743999
+09:45:44.031 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7 - ^shorten exitoso$
+09:45:45.006 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:45:45.486 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+09:45:46.383 [main] DEBUG com.intuit.karate - response time in milliseconds: 894
+1 < 200
+1 < Date: Thu, 27 Oct 2022 12:45:35 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+09:45:47.125 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+09:46:07.627 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:46:07.631 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1666874767631
+09:46:07.655 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7 - ^shorten exitoso$
+09:46:08.641 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:46:09.092 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+09:46:09.920 [main] DEBUG com.intuit.karate - response time in milliseconds: 826
+1 < 200
+1 < Date: Thu, 27 Oct 2022 12:45:58 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+09:46:09.931 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:13
+Then match response.result_url == '#number'
+match failed: EQUALS
+  $ | not a number (STRING:STRING)
+  'https://goolnk.com/WrOX5G'
+  '#number'
+
+src/test/java/examples/users/shorten.feature:13
+09:46:10.653 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+09:51:34.279 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:51:34.283 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1666875094283
+09:51:34.320 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 15 - ^shorten sin body$
+09:51:35.323 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:51:35.729 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:51:36.142 [main] DEBUG com.intuit.karate - response time in milliseconds: 411
+1 < 500
+1 < Date: Thu, 27 Oct 2022 12:51:25 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+
+09:51:36.146 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:19
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 411, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+src/test/java/examples/users/shorten.feature:19
+09:51:36.837 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+10:00:27.874 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:00:27.878 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1666875627878
+10:00:27.911 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 22 - ^shorten invalid url$
+10:00:28.999 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:00:29.811 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+10:00:30.652 [main] DEBUG com.intuit.karate - response time in milliseconds: 837
+1 < 400
+1 < Date: Thu, 27 Oct 2022 13:00:19 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+10:00:30.674 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:29
+* def respuesta = read('examples/users/response/error.json')
+js failed:
+>>>>
+01: read('examples/users/response/error.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: E:\Crowdar\myproject\src\test\java\examples\users\examples\users\response\error.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+src/test/java/examples/users/shorten.feature:29
+10:00:31.424 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+10:01:25.204 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:01:25.209 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1666875685208
+10:01:25.232 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 22 - ^shorten invalid url$
+10:01:26.275 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:01:26.736 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+10:01:27.559 [main] DEBUG com.intuit.karate - response time in milliseconds: 821
+1 < 400
+1 < Date: Thu, 27 Oct 2022 13:01:16 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+10:01:27.573 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:31
+Then match response == respuesta
+match failed: EQUALS
+  $ | not equal | match failed for name: 'error' (MAP:MAP)
+  {"error":"API Error: URL is invalid (check #1)"}
+  {"error":"API Error: After sanitization URL is empty"}
+
+    $.error | not equal (STRING:STRING)
+    'API Error: URL is invalid (check #1)'
+    'API Error: After sanitization URL is empty'
+
+src/test/java/examples/users/shorten.feature:31
+10:01:28.345 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+10:02:42.028 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:02:42.032 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1666875762032
+10:02:42.057 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 22 - ^shorten invalid url$
+10:02:43.035 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:02:43.492 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+10:02:44.339 [main] DEBUG com.intuit.karate - response time in milliseconds: 844
+1 < 400
+1 < Date: Thu, 27 Oct 2022 13:02:33 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+10:02:45.095 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+10:07:53.940 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:07:53.944 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1666876073944
+10:07:53.971 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 33 - ^shorten invalid Token$
+10:07:54.892 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:07:55.300 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:08:03.323 [main] DEBUG com.intuit.karate - response time in milliseconds: 8018
+1 < 403
+1 < Date: Thu, 27 Oct 2022 13:07:52 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+10:08:03.330 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:38
+Then status 400
+status code was: 403, expected: 400, response time in milliseconds: 8018, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+{"message":"You are not subscribed to this API."}
+src/test/java/examples/users/shorten.feature:38
+10:08:04.007 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+10:09:29.013 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:09:29.017 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1666876169017
+10:09:29.046 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 33 - ^shorten invalid Token$
+10:09:30.079 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:09:30.505 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:09:31.188 [main] DEBUG com.intuit.karate - response time in milliseconds: 681
+1 < 403
+1 < Date: Thu, 27 Oct 2022 13:09:20 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+10:09:31.924 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+10:13:46.513 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:13:46.517 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1666876426517
+10:13:46.547 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 40 - ^\'.*\'$
+10:13:47.477 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:13:47.874 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:13:48.618 [main] DEBUG com.intuit.karate - response time in milliseconds: 735
+1 < 403
+1 < Date: Thu, 27 Oct 2022 13:13:37 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+10:13:49.349 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+18:45:42.117 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:45:42.144 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667079942144
+18:45:42.186 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^.*$
+18:45:43.421 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:45:44.018 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+18:45:45.006 [main] DEBUG com.intuit.karate - response time in milliseconds: 985
+1 < 200
+1 < Date: Sat, 29 Oct 2022 21:45:30 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+18:45:45.023 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 15 - ^.*$
+18:45:45.032 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:45:45.044 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:45:45.255 [main] DEBUG com.intuit.karate - response time in milliseconds: 211
+1 < 500
+1 < Date: Sat, 29 Oct 2022 21:45:31 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+
+18:45:45.257 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:18
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 211, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+src/test/java/examples/users/shorten.feature:18
+18:45:45.259 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 21 - ^.*$
+18:45:45.267 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:45:45.277 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+18:45:45.940 [main] DEBUG com.intuit.karate - response time in milliseconds: 663
+1 < 400
+1 < Date: Sat, 29 Oct 2022 21:45:31 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+18:45:45.945 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 31 - ^.*$
+18:45:45.949 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:45:45.956 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:45:46.413 [main] DEBUG com.intuit.karate - response time in milliseconds: 457
+1 < 403
+1 < Date: Sat, 29 Oct 2022 21:45:32 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+18:45:46.416 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^.*$
+18:45:46.423 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:45:46.429 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+18:45:47.096 [main] DEBUG com.intuit.karate - response time in milliseconds: 667
+1 < 200
+1 < Date: Sat, 29 Oct 2022 21:45:33 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+18:45:47.115 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:43
+Then match 'response.result_url == '#string''
+js failed:
+>>>>
+01: 'response
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:9 Missing close quote
+'response
+         ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1344)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2373)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2292)
+- com.intuit.karate.core.ScenarioEngine.match(ScenarioEngine.java:1879)
+
+src/test/java/examples/users/shorten.feature:43
+18:45:48.230 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+18:47:04.715 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:47:04.719 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667080024719
+18:47:04.754 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^.*$
+18:47:05.864 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:47:06.396 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+18:47:09.027 [main] DEBUG com.intuit.karate - response time in milliseconds: 2629
+1 < 200
+1 < Date: Sat, 29 Oct 2022 21:46:54 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+18:47:09.044 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 15 - ^.*$
+18:47:09.057 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:47:09.064 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:47:09.267 [main] DEBUG com.intuit.karate - response time in milliseconds: 202
+1 < 500
+1 < Date: Sat, 29 Oct 2022 21:46:55 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+
+18:47:09.269 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:18
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 202, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+src/test/java/examples/users/shorten.feature:18
+18:47:09.270 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 21 - ^.*$
+18:47:09.278 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:47:09.288 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+18:47:09.960 [main] DEBUG com.intuit.karate - response time in milliseconds: 670
+1 < 400
+1 < Date: Sat, 29 Oct 2022 21:46:55 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+18:47:09.969 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 31 - ^.*$
+18:47:09.977 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:47:09.986 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:47:10.427 [main] DEBUG com.intuit.karate - response time in milliseconds: 440
+1 < 403
+1 < Date: Sat, 29 Oct 2022 21:46:56 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+18:47:10.432 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^.*$
+18:47:10.439 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:47:10.444 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+18:47:11.108 [main] DEBUG com.intuit.karate - response time in milliseconds: 664
+1 < 200
+1 < Date: Sat, 29 Oct 2022 21:46:57 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+18:47:11.127 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:43
+Then match 'response.result_url == '#string''
+js failed:
+>>>>
+01: 'response
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:9 Missing close quote
+'response
+         ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1344)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2373)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2292)
+- com.intuit.karate.core.ScenarioEngine.match(ScenarioEngine.java:1879)
+
+src/test/java/examples/users/shorten.feature:43
+18:47:12.235 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+18:49:04.853 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:49:04.858 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667080144857
+18:49:04.884 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 31 - ^shorten invalid Token$
+18:49:05.995 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:49:06.442 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:49:07.108 [main] DEBUG com.intuit.karate - response time in milliseconds: 663
+1 < 403
+1 < Date: Sat, 29 Oct 2022 21:48:53 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+18:49:07.873 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+18:49:19.465 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:49:19.471 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667080159471
+18:49:19.499 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 21 - ^shorten invalid url$
+18:49:20.613 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:49:21.104 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+18:49:21.935 [main] DEBUG com.intuit.karate - response time in milliseconds: 829
+1 < 400
+1 < Date: Sat, 29 Oct 2022 21:49:07 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+18:49:22.782 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+18:49:33.697 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:49:33.703 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667080173702
+18:49:33.730 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 15 - ^shorten sin body$
+18:49:34.812 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:49:35.292 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:49:35.652 [main] DEBUG com.intuit.karate - response time in milliseconds: 357
+1 < 500
+1 < Date: Sat, 29 Oct 2022 21:49:21 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+
+18:49:35.656 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:18
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 357, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+src/test/java/examples/users/shorten.feature:18
+18:49:36.460 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+18:49:48.153 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:49:48.158 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667080188157
+18:49:48.186 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^shorten exitoso$
+18:49:49.202 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:49:49.702 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+18:49:50.571 [main] DEBUG com.intuit.karate - response time in milliseconds: 865
+1 < 200
+1 < Date: Sat, 29 Oct 2022 21:49:36 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+18:49:50.599 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^shorten exitoso$
+18:49:50.609 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:49:50.618 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+18:49:51.293 [main] DEBUG com.intuit.karate - response time in milliseconds: 674
+1 < 200
+1 < Date: Sat, 29 Oct 2022 21:49:37 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+18:49:51.322 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:43
+Then match 'response.result_url == '#string''
+js failed:
+>>>>
+01: 'response
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:9 Missing close quote
+'response
+         ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1344)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2373)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2292)
+- com.intuit.karate.core.ScenarioEngine.match(ScenarioEngine.java:1879)
+
+src/test/java/examples/users/shorten.feature:43
+18:49:52.252 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+18:51:14.152 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:51:14.157 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667080274156
+18:51:14.187 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^.*$
+18:51:15.266 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:51:15.745 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+18:51:16.635 [main] DEBUG com.intuit.karate - response time in milliseconds: 884
+1 < 200
+1 < Date: Sat, 29 Oct 2022 21:51:02 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+18:51:16.664 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 15 - ^.*$
+18:51:16.672 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:51:16.679 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:51:16.855 [main] DEBUG com.intuit.karate - response time in milliseconds: 175
+1 < 500
+1 < Date: Sat, 29 Oct 2022 21:51:02 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+
+18:51:16.856 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:18
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 175, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+src/test/java/examples/users/shorten.feature:18
+18:51:16.858 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 21 - ^.*$
+18:51:16.868 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:51:16.877 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+18:51:17.546 [main] DEBUG com.intuit.karate - response time in milliseconds: 668
+1 < 400
+1 < Date: Sat, 29 Oct 2022 21:51:03 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+18:51:17.550 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 31 - ^.*$
+18:51:17.555 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:51:17.560 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:51:18.005 [main] DEBUG com.intuit.karate - response time in milliseconds: 444
+1 < 403
+1 < Date: Sat, 29 Oct 2022 21:51:03 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+18:51:18.012 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^.*$
+18:51:18.024 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:51:18.032 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+18:51:18.683 [main] DEBUG com.intuit.karate - response time in milliseconds: 649
+1 < 200
+1 < Date: Sat, 29 Oct 2022 21:51:04 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+18:51:19.556 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+18:52:12.055 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:52:12.061 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667080332060
+18:52:12.092 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^\'.*\'$
+18:52:13.154 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:52:13.684 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+18:52:14.537 [main] DEBUG com.intuit.karate - response time in milliseconds: 851
+1 < 200
+1 < Date: Sat, 29 Oct 2022 21:52:00 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+18:52:15.458 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+18:53:31.808 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:53:31.812 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667080411812
+18:53:31.845 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^\'\'.*\'\'$
+18:53:32.891 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:53:33.387 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+18:53:34.259 [main] DEBUG com.intuit.karate - response time in milliseconds: 870
+1 < 200
+1 < Date: Sat, 29 Oct 2022 21:53:20 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+18:53:35.064 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+18:59:58.647 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:59:58.651 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667080798651
+18:59:58.687 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^\'\'.*\'\'$
+18:59:59.778 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:00:00.278 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+19:00:01.149 [main] DEBUG com.intuit.karate - response time in milliseconds: 868
+1 < 200
+1 < Date: Sat, 29 Oct 2022 21:59:47 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+19:00:01.165 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^\'\'.*\'\'$
+19:00:01.174 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:00:01.183 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+19:00:01.857 [main] DEBUG com.intuit.karate - response time in milliseconds: 673
+1 < 400
+1 < Date: Sat, 29 Oct 2022 21:59:47 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+19:00:02.680 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+17:50:17.954 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:50:17.965 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667163017965
+17:50:18.000 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^\'\'.*\'\'$
+17:50:19.070 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:50:19.601 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+17:50:20.597 [main] DEBUG com.intuit.karate - response time in milliseconds: 991
+1 < 200
+1 < Date: Sun, 30 Oct 2022 20:50:04 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+17:50:20.625 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^\'\'.*\'\'$
+17:50:20.637 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:50:20.652 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+17:50:21.326 [main] DEBUG com.intuit.karate - response time in milliseconds: 674
+1 < 400
+1 < Date: Sun, 30 Oct 2022 20:50:05 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+17:50:22.389 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+19:04:10.956 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:04:10.963 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667167450962
+19:04:10.991 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 15 - ^shorten .*$
+19:04:11.980 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:04:12.452 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:04:12.878 [main] DEBUG com.intuit.karate - response time in milliseconds: 421
+1 < 500
+1 < Date: Sun, 30 Oct 2022 22:03:57 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+
+19:04:12.882 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:18
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 421, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+src/test/java/examples/users/shorten.feature:18
+19:04:12.884 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 31 - ^shorten .*$
+19:04:12.895 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:04:12.903 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:04:13.484 [main] DEBUG com.intuit.karate - response time in milliseconds: 580
+1 < 403
+1 < Date: Sun, 30 Oct 2022 22:03:57 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+19:04:13.515 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^shorten .*$
+19:04:13.525 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:04:13.574 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+19:04:14.241 [main] DEBUG com.intuit.karate - response time in milliseconds: 666
+1 < 200
+1 < Date: Sun, 30 Oct 2022 22:03:58 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+19:04:14.247 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^shorten .*$
+19:04:14.255 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:04:14.265 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+19:04:14.957 [main] DEBUG com.intuit.karate - response time in milliseconds: 691
+1 < 400
+1 < Date: Sun, 30 Oct 2022 22:03:59 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+19:04:14.961 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 59 - ^shorten .*$
+19:04:14.968 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:04:14.988 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:51
+* header x-rapidapi-key = 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+js failed:
+>>>>
+01: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:1 Missing space after numeric literal
+5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+ ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1344)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2373)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2292)
+- com.intuit.karate.core.ScenarioEngine.header(ScenarioEngine.java:401)
+
+src/test/java/examples/users/shorten.feature:51
+19:04:14.991 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 60 - ^shorten .*$
+19:04:14.999 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:04:15.012 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:51
+* header x-rapidapi-key = asdasdas
+js failed:
+>>>>
+01: asdasdas
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "asdasdas" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/examples/users/shorten.feature:51
+19:04:16.008 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+19:05:38.415 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:05:38.435 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667167538435
+19:05:38.520 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^shorten .*$
+19:05:40.009 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:05:40.610 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+19:05:41.479 [main] DEBUG com.intuit.karate - response time in milliseconds: 866
+1 < 200
+1 < Date: Sun, 30 Oct 2022 22:05:25 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+19:05:41.490 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^shorten .*$
+19:05:41.497 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:05:41.507 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+19:05:42.191 [main] DEBUG com.intuit.karate - response time in milliseconds: 684
+1 < 400
+1 < Date: Sun, 30 Oct 2022 22:05:26 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+19:05:42.194 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 59 - ^shorten .*$
+19:05:42.199 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:05:42.220 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:51
+* header x-rapidapi-key = 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+js failed:
+>>>>
+01: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:1 Missing space after numeric literal
+5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+ ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1344)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2373)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2292)
+- com.intuit.karate.core.ScenarioEngine.header(ScenarioEngine.java:401)
+
+src/test/java/examples/users/shorten.feature:51
+19:05:42.221 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 60 - ^shorten .*$
+19:05:42.229 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:05:42.239 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:51
+* header x-rapidapi-key = asdasdas
+js failed:
+>>>>
+01: asdasdas
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "asdasdas" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/examples/users/shorten.feature:51
+19:05:43.383 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+19:06:16.866 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:06:16.872 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667167576872
+19:06:16.901 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^shorten .*$
+19:06:18.043 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:06:18.603 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+19:06:19.453 [main] DEBUG com.intuit.karate - response time in milliseconds: 848
+1 < 200
+1 < Date: Sun, 30 Oct 2022 22:06:03 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+19:06:19.466 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^shorten .*$
+19:06:19.473 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:06:19.484 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+19:06:20.145 [main] DEBUG com.intuit.karate - response time in milliseconds: 661
+1 < 400
+1 < Date: Sun, 30 Oct 2022 22:06:04 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+19:06:20.149 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 59 - ^shorten .*$
+19:06:20.154 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:06:20.160 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:06:20.339 [main] DEBUG com.intuit.karate - response time in milliseconds: 179
+1 < 500
+1 < Date: Sun, 30 Oct 2022 22:06:04 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+
+19:06:20.340 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:54
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 179, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+src/test/java/examples/users/shorten.feature:54
+19:06:20.341 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 60 - ^shorten .*$
+19:06:20.348 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:06:20.354 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:06:20.802 [main] DEBUG com.intuit.karate - response time in milliseconds: 447
+1 < 403
+1 < Date: Sun, 30 Oct 2022 22:06:04 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+19:06:21.720 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+19:08:05.041 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:08:05.045 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667167685044
+19:08:05.076 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 59 - ^shorten \'.*\'$
+19:08:06.074 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:08:06.513 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:08:06.931 [main] DEBUG com.intuit.karate - response time in milliseconds: 415
+1 < 500
+1 < Date: Sun, 30 Oct 2022 22:07:51 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+
+19:08:06.934 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:54
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 415, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+src/test/java/examples/users/shorten.feature:54
+19:08:06.936 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 60 - ^shorten \'.*\'$
+19:08:06.946 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:08:06.956 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:08:07.428 [main] DEBUG com.intuit.karate - response time in milliseconds: 472
+1 < 403
+1 < Date: Sun, 30 Oct 2022 22:07:51 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+19:08:08.296 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+19:09:34.847 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:09:34.852 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667167774851
+19:09:34.878 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^shorten exitoso$
+19:09:35.853 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:09:36.331 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+19:09:37.240 [main] DEBUG com.intuit.karate - response time in milliseconds: 904
+1 < 200
+1 < Date: Sun, 30 Oct 2022 22:09:21 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+19:09:38.424 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+19:09:57.953 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:09:57.957 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667167797957
+19:09:57.990 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 15 - ^shorten sin body$
+19:09:58.978 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:09:59.449 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:09:59.806 [main] DEBUG com.intuit.karate - response time in milliseconds: 353
+1 < 500
+1 < Date: Sun, 30 Oct 2022 22:09:43 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+
+19:09:59.810 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:18
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 353, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+src/test/java/examples/users/shorten.feature:18
+19:10:00.554 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+19:11:08.160 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:11:08.164 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667167868163
+19:11:20.609 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:11:20.612 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667167880612
+19:11:20.639 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^shorten \'.*\'$
+19:11:21.771 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:11:22.272 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+19:11:23.229 [main] DEBUG com.intuit.karate - response time in milliseconds: 954
+1 < 200
+1 < Date: Sun, 30 Oct 2022 22:11:07 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+19:11:23.242 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^shorten \'.*\'$
+19:11:23.250 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:11:23.261 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+19:11:23.945 [main] DEBUG com.intuit.karate - response time in milliseconds: 683
+1 < 400
+1 < Date: Sun, 30 Oct 2022 22:11:08 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+19:11:23.948 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 60 - ^shorten \'.*\'$
+19:11:23.955 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:11:23.960 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:11:24.405 [main] DEBUG com.intuit.karate - response time in milliseconds: 444
+1 < 403
+1 < Date: Sun, 30 Oct 2022 22:11:08 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+19:11:25.200 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+19:11:34.298 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:11:34.302 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667167894302
+19:11:34.330 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^shorten \'.*\'$
+19:11:35.361 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:11:35.840 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+19:11:36.697 [main] DEBUG com.intuit.karate - response time in milliseconds: 853
+1 < 200
+1 < Date: Sun, 30 Oct 2022 22:11:20 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+19:11:36.718 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^shorten \'.*\'$
+19:11:36.728 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:11:36.737 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+19:11:37.415 [main] DEBUG com.intuit.karate - response time in milliseconds: 678
+1 < 400
+1 < Date: Sun, 30 Oct 2022 22:11:21 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+19:11:37.421 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 60 - ^shorten \'.*\'$
+19:11:37.433 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:11:37.440 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:11:37.890 [main] DEBUG com.intuit.karate - response time in milliseconds: 450
+1 < 403
+1 < Date: Sun, 30 Oct 2022 22:11:22 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+19:11:38.688 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+19:14:10.193 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:14:10.199 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667168050199
+19:14:10.225 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^shorten \'.*\'$
+19:14:11.246 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:14:11.741 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+19:14:19.609 [main] DEBUG com.intuit.karate - response time in milliseconds: 7866
+1 < 200
+1 < Date: Sun, 30 Oct 2022 22:14:03 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+19:14:19.621 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^shorten \'.*\'$
+19:14:19.629 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:14:19.638 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+19:14:20.322 [main] DEBUG com.intuit.karate - response time in milliseconds: 683
+1 < 400
+1 < Date: Sun, 30 Oct 2022 22:14:04 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+19:14:20.325 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 60 - ^shorten \'.*\'$
+19:14:20.330 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:14:20.337 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:14:20.798 [main] DEBUG com.intuit.karate - response time in milliseconds: 460
+1 < 403
+1 < Date: Sun, 30 Oct 2022 22:14:04 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+19:14:21.649 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+19:15:16.503 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:15:16.507 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667168116507
+19:15:16.572 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^shorten \'.*\'$
+19:15:17.791 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:15:18.350 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+19:15:19.211 [main] DEBUG com.intuit.karate - response time in milliseconds: 860
+1 < 200
+1 < Date: Sun, 30 Oct 2022 22:15:03 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+19:15:19.222 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^shorten \'.*\'$
+19:15:19.232 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:15:19.240 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+19:15:19.925 [main] DEBUG com.intuit.karate - response time in milliseconds: 684
+1 < 400
+1 < Date: Sun, 30 Oct 2022 22:15:04 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+19:15:19.928 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 59 - ^shorten \'.*\'$
+19:15:19.936 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:15:19.941 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:15:20.130 [main] DEBUG com.intuit.karate - response time in milliseconds: 189
+1 < 500
+1 < Date: Sun, 30 Oct 2022 22:15:04 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+
+19:15:20.131 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:54
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 189, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+src/test/java/examples/users/shorten.feature:54
+19:15:20.132 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 60 - ^shorten \'.*\'$
+19:15:20.138 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:15:20.143 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:15:20.595 [main] DEBUG com.intuit.karate - response time in milliseconds: 451
+1 < 403
+1 < Date: Sun, 30 Oct 2022 22:15:04 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+19:15:21.541 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+19:56:35.768 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:56:35.771 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667170595771
+19:56:35.800 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17 - ^shorten \'.*\'$
+19:56:36.994 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:56:37.495 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+19:56:38.354 [main] DEBUG com.intuit.karate - response time in milliseconds: 857
+1 < 200
+1 < Date: Sun, 30 Oct 2022 22:56:22 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+19:56:38.366 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 18 - ^shorten \'.*\'$
+19:56:38.374 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:56:38.384 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+19:56:39.061 [main] DEBUG com.intuit.karate - response time in milliseconds: 677
+1 < 400
+1 < Date: Sun, 30 Oct 2022 22:56:23 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+19:56:39.064 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 19 - ^shorten \'.*\'$
+19:56:39.071 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:56:39.077 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:56:39.256 [main] DEBUG com.intuit.karate - response time in milliseconds: 179
+1 < 500
+1 < Date: Sun, 30 Oct 2022 22:56:23 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+
+19:56:39.257 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:12
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 179, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+src/test/java/examples/users/shorten.feature:12
+19:56:40.283 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+20:00:39.780 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:00:39.784 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667170839783
+20:00:39.811 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17 - ^shorten \'.*\'$
+20:00:40.845 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:00:41.351 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+20:00:42.318 [main] DEBUG com.intuit.karate - response time in milliseconds: 963
+1 < 200
+1 < Date: Sun, 30 Oct 2022 23:00:26 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+20:00:42.333 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 18 - ^shorten \'.*\'$
+20:00:42.346 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:00:42.353 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+20:00:43.027 [main] DEBUG com.intuit.karate - response time in milliseconds: 673
+1 < 400
+1 < Date: Sun, 30 Oct 2022 23:00:27 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+20:00:43.033 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20 - ^shorten \'.*\'$
+20:00:43.047 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:00:43.060 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+20:00:43.496 [main] DEBUG com.intuit.karate - response time in milliseconds: 436
+1 < 403
+1 < Date: Sun, 30 Oct 2022 23:00:27 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+20:00:44.369 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+20:29:27.862 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:29:27.866 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667172567866
+20:29:27.895 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17 - ^shorten \'.*\'$
+20:29:28.935 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:29:29.390 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+20:29:30.280 [main] DEBUG com.intuit.karate - response time in milliseconds: 887
+1 < 200
+1 < Date: Sun, 30 Oct 2022 23:29:14 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+20:29:30.297 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 18 - ^shorten \'.*\'$
+20:29:30.308 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:29:30.316 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+20:29:30.990 [main] DEBUG com.intuit.karate - response time in milliseconds: 673
+1 < 400
+1 < Date: Sun, 30 Oct 2022 23:29:15 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+20:29:30.996 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 19 - ^shorten \'.*\'$
+20:29:31.008 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:29:31.016 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:29:31.194 [main] DEBUG com.intuit.karate - response time in milliseconds: 178
+1 < 500
+1 < Date: Sun, 30 Oct 2022 23:29:15 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+
+20:29:31.195 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:12
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 178, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+src/test/java/examples/users/shorten.feature:12
+20:29:31.196 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20 - ^shorten \'.*\'$
+20:29:31.202 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:29:31.207 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+20:29:31.636 [main] DEBUG com.intuit.karate - response time in milliseconds: 429
+1 < 403
+1 < Date: Sun, 30 Oct 2022 23:29:15 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+20:29:32.490 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+09:14:43.942 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:14:43.951 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667218483951
+09:14:43.985 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17 - ^shorten \'.*\'$
+09:14:45.664 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:14:46.304 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+09:14:47.226 [main] DEBUG com.intuit.karate - response time in milliseconds: 919
+1 < 200
+1 < Date: Mon, 31 Oct 2022 12:14:30 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+09:14:47.248 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 18 - ^shorten \'.*\'$
+09:14:47.263 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:14:47.272 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+09:14:47.961 [main] DEBUG com.intuit.karate - response time in milliseconds: 688
+1 < 400
+1 < Date: Mon, 31 Oct 2022 12:14:30 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+09:14:47.964 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 19 - ^shorten \'.*\'$
+09:14:47.972 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:14:47.984 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:14:48.174 [main] DEBUG com.intuit.karate - response time in milliseconds: 190
+1 < 500
+1 < Date: Mon, 31 Oct 2022 12:14:31 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+
+09:14:48.175 [main] ERROR com.intuit.karate - src/test/java/examples/users/shorten.feature:12
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 190, url: https://url-shortener-service.p.rapidapi.com/shorten, response: 
+Oops, an error in the gateway has occurred. If the issue persists, please contact support@rapidapi.com
+src/test/java/examples/users/shorten.feature:12
+09:14:48.178 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20 - ^shorten \'.*\'$
+09:14:48.200 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:14:48.215 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+09:14:48.682 [main] DEBUG com.intuit.karate - response time in milliseconds: 466
+1 < 403
+1 < Date: Mon, 31 Oct 2022 12:14:31 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+09:14:49.730 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
+09:16:56.051 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:16:56.054 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1667218616054
+09:16:56.084 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17 - ^shorten \'.*\'$
+09:16:57.119 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:16:57.585 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+09:16:58.587 [main] DEBUG com.intuit.karate - response time in milliseconds: 1000
+1 < 200
+1 < Date: Mon, 31 Oct 2022 12:16:41 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < X-Content-Type-Options: nosniff
+1 < Referrer-Policy: same-origin
+1 < X-XSS-Protection: 1; mode=block
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Frame-Options: SAMEORIGIN
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"result_url":"https:\/\/goolnk.com\/WrOX5G"}
+
+09:16:58.599 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 18 - ^shorten \'.*\'$
+09:16:58.608 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:16:58.621 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"asdfasdf"}
+
+09:16:59.283 [main] DEBUG com.intuit.karate - response time in milliseconds: 661
+1 < 400
+1 < Date: Mon, 31 Oct 2022 12:16:42 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is invalid (check #1)"}
+
+09:16:59.287 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 19 - ^shorten \'.*\'$
+09:16:59.292 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:16:59.298 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: 5bc1a34c40mshe27d32ebba28f93p1f3a18jsn222d7956a53b
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 2
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{}
+
+09:16:59.956 [main] DEBUG com.intuit.karate - response time in milliseconds: 658
+1 < 400
+1 < Date: Mon, 31 Oct 2022 12:16:42 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < Referrer-Policy: same-origin
+1 < Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Server: RapidAPI-1.2.8
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+{"error":"API Error: URL is empty"}
+
+09:16:59.960 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20 - ^shorten \'.*\'$
+09:16:59.965 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:16:59.970 [main] DEBUG com.intuit.karate - request:
+1 > POST https://url-shortener-service.p.rapidapi.com/shorten
+1 > x-rapidapi-key: asdasdas
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: url-shortener-service.p.rapidapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/crowdar.com.ar"}
+
+09:17:00.414 [main] DEBUG com.intuit.karate - response time in milliseconds: 444
+1 < 403
+1 < Date: Mon, 31 Oct 2022 12:16:43 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-RapidAPI-Version: 1.2.8
+1 < X-RapidAPI-Region: AWS - sa-east-1
+1 < X-RapidAPI-Proxy-Response: true
+1 < Server: RapidAPI-1.2.8
+{"message":"You are not subscribed to this API."}
+
+09:17:01.245 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/shorten.feature
